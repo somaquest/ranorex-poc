@@ -1,0 +1,20 @@
+﻿<repository
+id="055c5840-e07d-43b0-ba49-91890698f03d"
+name="TCOS_POC_DEMOAPPRepository">
+	<codegen
+	classname="TCOS_POC_DEMOAPPRepository"
+	namespace="TCOS_POC_DEMOAPP">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="95af092a-f552-4cd1-bced-e40668d18b4e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

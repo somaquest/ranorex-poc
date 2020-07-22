@@ -1,0 +1,1065 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TCOS_POC_DEMOAPP</name>
+    </assembly>
+    <members>
+        <member name="T:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar">
+             <summary>
+            The Click_Reset_Verify_Progressbar recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView">
+             <summary>
+            The Collapse_Items_In_TreeView recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Compare_Listbox_Values">
+             <summary>
+            The Compare_Listbox_Values recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Compare_Listbox_Values.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Compare_Listbox_Values.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView">
+             <summary>
+            The Expand_Items_In_TreeView recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Reset_Selection">
+             <summary>
+            The Reset_Selection recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Reset_Selection.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Reset_Selection.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Reset_Selection.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Reset_Selection.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Reset_Selection.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Reset_Selection.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Reset_Selection.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Select_All_Table_Rows">
+             <summary>
+            The Select_All_Table_Rows recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Select_All_Table_Rows.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Select_All_Table_Rows.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar">
+             <summary>
+            The Upload_File_And_Verify_Progressbar recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Upload_File_And_Verify_Progressbar.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown">
+             <summary>
+            The Verify_Green_Image_Is_Shown recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Green_Image_Is_Shown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.CloseAUT.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab">
+             <summary>
+            The Navigate_to_Test_database_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab">
+             <summary>
+            The Navigate_to_Image_based_automation_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab">
+             <summary>
+            The Navigate_to_UI_element_test_area_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab">
+             <summary>
+            The Navigate_to_Upload_testing_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab">
+             <summary>
+            The Navigate_to_Dynamic_IDs_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Dynamic_IDs_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab">
+             <summary>
+            The Navigate_to_Object_identification_tab recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry">
+             <summary>
+            The Fill_In_Form_And_Click_Add_Entry recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Firstname">
+            <summary>
+            Gets or sets the value of variable Firstname.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table">
+             <summary>
+            The Remove_All_Entries_In_Table recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.StartAUT.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository">
+            <summary>
+            The class representing the TCOS_POC_DEMOAPPRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TCOS_POC_DEMOAPPRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.RxMainFrame">
+            <summary>
+            The RxMainFrame folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.List1000">
+            <summary>
+            The List1000 folder.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder">
+            <summary>
+            The RxMainFrameAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxMainFrame  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Text1001">
+            <summary>
+            The Text1001 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Text1001Info">
+            <summary>
+            The Text1001 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabStandard">
+            <summary>
+            The RxTabStandard folder.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder">
+            <summary>
+            The RxTabStandardFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabStandard  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMale">
+            <summary>
+            The RdbMale item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMaleInfo">
+            <summary>
+            The RdbMale item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.UpDownEdit">
+            <summary>
+            The UpDownEdit item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.UpDownEditInfo">
+            <summary>
+            The UpDownEdit item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnAddPerson">
+            <summary>
+            The BtnAddPerson item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnAddPersonInfo">
+            <summary>
+            The BtnAddPerson item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartment">
+            <summary>
+            The CmbDepartment item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartmentInfo">
+            <summary>
+            The CmbDepartment item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstName">
+            <summary>
+            The TxtFirstName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstNameInfo">
+            <summary>
+            The TxtFirstName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastName">
+            <summary>
+            The TxtLastName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastNameInfo">
+            <summary>
+            The TxtLastName item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder">
+            <summary>
+            The List1000AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new List1000  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today">
+             <summary>
+            The Verify_Current_Date_Selected_On_Clicking_Today recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown">
+             <summary>
+            The Verify_Red_Image_Is_Shown recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Verify_Reset_Function">
+             <summary>
+            The Verify_Reset_Function recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Verify_Reset_Function.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Reset_Function.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Reset_Function.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Verify_Reset_Function.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Reset_Function.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Reset_Function.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Reset_Function.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage">
+             <summary>
+            The Verify_Welcome_Mesage recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

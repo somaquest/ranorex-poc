@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="94ef9041-3ac8-49cf-81f8-af08f5ac75a6"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Fill_In_Form_And_Click_Add_Entry"
+	namespace="TCOS_POC_DEMOAPP">
+	</codegen>
+	<variables>
+		<var
+		id="5d8cb0ac-697a-4d16-9a01-209e8b93d384"
+		name="Firstname">
+			quest
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="055c5840-e07d-43b0-ba49-91890698f03d"
+	name="TCOS_POC_DEMOAPPRepository"
+	relativepath="TCOS_POC_DEMOAPPRepository.rxrep">
+		<codegen
+		classname="TCOS_POC_DEMOAPPRepository"
+		namespace="TCOS_POC_DEMOAPP">
+		</codegen>
+		<rootfolder
+		id="95af092a-f552-4cd1-bced-e40668d18b4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Fill_In_Form_And_Click_Add_Entry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

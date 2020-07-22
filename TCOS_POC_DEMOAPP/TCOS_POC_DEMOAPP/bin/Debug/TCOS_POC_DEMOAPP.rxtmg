@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TCOS_POC_DEMOAPP"
+      id="cf509d2c-0c89-4571-8e28-7e92eba27118"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TCOS_POC_DEMOAPP"
+      id="cf509d2c-0c89-4571-8e28-7e92eba27118"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="14.78s"
+		durationms="14781"
+		type="root"
+		rid="e64e5e8e775cf90"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="somas"
+		rxversion="9.3.2.0"
+		host="DESKTOP-0SRITHK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="22-07-2020 17:06:48"
+		timestampiso="2020-07-22T11:36:48"
+		endtime="22-07-2020 17:07:03"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Fill_In_Form_And_Click_Add_Entry">
+		<detail>
+			Fill_In_Form_And_Click_Add_Entry
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.501"
+			timeRelativeToTestModuleStartTime="00:04.501"
+			timeWallClock="17:06:53"
+			time="00:04.501"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.TxtFirstName' at 89;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']"
+				itempath="text[@controlname='txtFirstName']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.TxtFirstName"
+				id="f2a779ba37a640e391ffa14426f929f5"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.323"
+			timeRelativeToTestModuleStartTime="00:07.323"
+			timeWallClock="17:06:55"
+			time="00:07.323"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'quest' with focus on 'RxMainFrame.RxTabStandard.TxtFirstName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtFirstName']"
+				itempath="text[@controlname='txtFirstName']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.TxtFirstName"
+				id="f2a779ba37a640e391ffa14426f929f5"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.770"
+			timeRelativeToTestModuleStartTime="00:07.770"
+			timeWallClock="17:06:56"
+			time="00:07.770"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.TxtLastName' at 28;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']"
+				itempath="text[@controlname='txtLastName']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.TxtLastName"
+				id="b6c0a3f5ebf64b3ca41f6e2ae3e58cde"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.450"
+			timeRelativeToTestModuleStartTime="00:08.450"
+			timeWallClock="17:06:56"
+			time="00:08.450"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'user' with focus on 'RxMainFrame.RxTabStandard.TxtLastName'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/text[@controlname='txtLastName']"
+				itempath="text[@controlname='txtLastName']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.TxtLastName"
+				id="b6c0a3f5ebf64b3ca41f6e2ae3e58cde"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.840"
+			timeRelativeToTestModuleStartTime="00:08.840"
+			timeWallClock="17:06:57"
+			time="00:08.840"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.Text1001' at 233;4.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']//combobox[@controlname='cmbDepartment']/text[@controlid='1001']"
+				itempath=".//combobox[@controlname='cmbDepartment']/text[@controlid='1001']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.Text1001"
+				id="206aa4a73f6548b89cb26b3aeb333893"
+				timeout="60000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.767"
+			timeRelativeToTestModuleStartTime="00:09.767"
+			timeWallClock="17:06:58"
+			time="00:09.767"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.CmbDepartment' at 448;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/combobox[@controlname='cmbDepartment']"
+				itempath="combobox[@controlname='cmbDepartment']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.CmbDepartment"
+				id="350ccff632f540b8884a7fec746c657a"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.498"
+			timeRelativeToTestModuleStartTime="00:10.498"
+			timeWallClock="17:06:59"
+			time="00:10.498"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'List1000' at 58;139.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/list[@controlid='1000']"
+				itempath="/list[@controlid='1000']"
+				fullname="TCOS_POC_DEMOAPPRepository.List1000.Self"
+				id="51b66d00e9f54c08aafde55a629dc4f2"
+				timeout="30000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.098"
+			timeRelativeToTestModuleStartTime="00:11.098"
+			timeWallClock="17:06:59"
+			time="00:11.098"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.UpDownEdit' at 116;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlname='upDownEdit']"
+				itempath="?/?/text[@controlname='upDownEdit']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.UpDownEdit"
+				id="73e149f8661e4febba880d290a01fdb7"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.230"
+			timeRelativeToTestModuleStartTime="00:12.230"
+			timeWallClock="17:07:00"
+			time="00:12.230"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '36' with focus on 'RxMainFrame.RxTabStandard.UpDownEdit'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/text[@controlname='upDownEdit']"
+				itempath="?/?/text[@controlname='upDownEdit']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.UpDownEdit"
+				id="73e149f8661e4febba880d290a01fdb7"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.944"
+			timeRelativeToTestModuleStartTime="00:12.944"
+			timeWallClock="17:07:01"
+			time="00:12.944"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.RdbMale' at 23;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/?/?/radiobutton[@controlname='rdbMale']"
+				itempath="?/?/radiobutton[@controlname='rdbMale']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.RdbMale"
+				id="2dac0cb253c94d7ea5a28947b5af42ac"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.096"
+			timeRelativeToTestModuleStartTime="00:14.096"
+			timeWallClock="17:07:02"
+			time="00:14.096"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'RxMainFrame.RxTabStandard.BtnAddPerson' at 42;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabStandard']/button[@controlname='btnAddPerson']"
+				itempath="button[@controlname='btnAddPerson']"
+				fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabStandard.BtnAddPerson"
+				id="47082eab69e64dadb2e0c549503fe069"
+				timeout="90000"
+				codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

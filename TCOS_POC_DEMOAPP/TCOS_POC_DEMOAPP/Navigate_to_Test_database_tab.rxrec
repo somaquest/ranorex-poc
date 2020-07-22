@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6bc4a34c-9acf-4fd4-93ef-a6c298a2cbad"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Navigate_to_Test_database_tab"
+	namespace="TCOS_POC_DEMOAPP">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="055c5840-e07d-43b0-ba49-91890698f03d"
+	name="TCOS_POC_DEMOAPPRepository"
+	relativepath="TCOS_POC_DEMOAPPRepository.rxrep">
+		<codegen
+		classname="TCOS_POC_DEMOAPPRepository"
+		namespace="TCOS_POC_DEMOAPP">
+		</codegen>
+		<rootfolder
+		id="95af092a-f552-4cd1-bced-e40668d18b4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Navigate_to_Test_database_tab.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

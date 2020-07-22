@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fd5591b9-4a9b-4045-9035-749b4725cab1"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="TCOS_POC_DEMOAPP">
+	</codegen>
+	<variables>
+		<var
+		id="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="af740729-3450-4918-8857-cda74dcc734f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="055c5840-e07d-43b0-ba49-91890698f03d"
+	name="TCOS_POC_DEMOAPPRepository"
+	relativepath="TCOS_POC_DEMOAPPRepository.rxrep">
+		<codegen
+		classname="TCOS_POC_DEMOAPPRepository"
+		namespace="TCOS_POC_DEMOAPP">
+		</codegen>
+		<rootfolder
+		id="95af092a-f552-4cd1-bced-e40668d18b4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
