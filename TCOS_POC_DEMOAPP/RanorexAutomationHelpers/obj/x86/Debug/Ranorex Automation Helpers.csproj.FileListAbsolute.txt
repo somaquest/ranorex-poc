@@ -1,0 +1,8 @@
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.xml
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

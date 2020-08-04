@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="fd5591b9-4a9b-4045-9035-749b4725cab1"
+id="d96aff6e-7eeb-4e96-9843-942dfb75264c"
 mode="Desktop">
 	<repeatcount>
 		1
@@ -24,7 +24,7 @@ mode="Desktop">
 	</codegen>
 	<variables>
 		<var
-		id="a01ea109-3b7a-4991-ba93-a11bdcf8e862"
+		id="fb5d208b-dcae-457d-a187-a4a5a85741d4"
 		name="CloseAutProcessIDVar">
 			-1
 		</var>
@@ -35,7 +35,7 @@ mode="Desktop">
 		graceperiod="500ms"
 		method="CloseWindowByProcessID"
 		optional="False"
-		searchpropertyid="af740729-3450-4918-8857-cda74dcc734f">
+		searchpropertyid="c515aba6-0454-4a2e-a647-9ea3e8e33cd5">
 			<comment>
 			</comment>
 			<bindings>

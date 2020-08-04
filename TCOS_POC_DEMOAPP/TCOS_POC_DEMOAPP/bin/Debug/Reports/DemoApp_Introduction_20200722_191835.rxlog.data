@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="118ms"
+		durationms="118"
+		type="root"
+		rid="be541cafa7f60b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="somas"
+		rxversion="9.3.2.0"
+		host="DESKTOP-0SRITHK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="22-07-2020 19:18:35"
+		timestampiso="2020-07-22T13:48:35"
+		endtime="22-07-2020 19:18:35"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.074"
+			timeRelativeToTestModuleStartTime="00:00.074"
+			timeWallClock="19:18:35"
+			time="00:00.074"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				The run config with name 'Testsuites_DB' does not exist in this test suite.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuite.Run(String runConfigName, String runLabel, Dictionary`2 parameters)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.TryRunTestSuite(RunParams rp, TestSuite testSuite)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.&lt;>c__DisplayClass13_1.&lt;RunInternal>b__6()&#13;&#10;   at Ranorex.Common.Types.OptCombinators.UnwrapOrElse[T](Opt`1 self, Func`1 generator)&#13;&#10;   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

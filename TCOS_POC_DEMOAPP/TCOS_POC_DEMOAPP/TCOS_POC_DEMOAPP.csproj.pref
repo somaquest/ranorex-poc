@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks">
+    <Element value="Breakpoint|C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Compare_Listbox_Values.UserCode.cs|9|1|True|Break||" />
+  </Array>
+  <Array name="files">
+    <Element value="DemoApp_UI_Smoke.rxtst" />
+    <Element value="Code modules\ValidateListBox.cs" />
+    <Element value="Compare_Listbox_Values.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="TCOS_POC_DEMOAPP.Compare_Listbox_Values.Get_value_LstTestBox(RepoItemInfo listInfo)" />
+      <Element value="TCOS_POC_DEMOAPP.Compare_Listbox_Values.Get_value_LstTestBox(RepoItemInfo listInfo)" />
+      <Element value="TCOS_POC_DEMOAPP.Compare_Listbox_Values.Mouse_DoubleClick_Down(RepoItemInfo buttonInfo)" />
+      <Element value="TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Mouse_Click_UIElementTestArea(RepoItemInfo tabpageInfo)" />
+    </Array>
+  </Properties>
+</Properties>

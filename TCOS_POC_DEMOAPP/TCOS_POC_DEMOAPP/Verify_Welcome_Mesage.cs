@@ -41,6 +41,8 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Verify_Welcome_Mesage()
         {
+            username = "KARTHIK";
+            WelcomeTxt = "WELCOME, KARTHIK!";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _username;
+
+        /// <summary>
+        /// Gets or sets the value of variable username.
+        /// </summary>
+        [TestVariable("0f75b935-9cf5-47b3-ae1e-947fdfc7bf2c")]
+        public string username
+        {
+            get { return _username; }
+            set { _username = value; }
+        }
+
+        string _WelcomeTxt;
+
+        /// <summary>
+        /// Gets or sets the value of variable WelcomeTxt.
+        /// </summary>
+        [TestVariable("e5845d91-f1ef-4f7d-a2b6-d4b3b32ac0b6")]
+        public string WelcomeTxt
+        {
+            get { return _WelcomeTxt; }
+            set { _WelcomeTxt = value; }
+        }
 
 #endregion
 
@@ -79,6 +105,22 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.EnterYourName' at 20;18.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabIntroduction.EnterYourName.Click("20;18");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$username' with focus on 'RxMainFrame.RxTabIntroduction.EnterYourName'.", repo.RxMainFrame.RxTabIntroduction.EnterYourNameInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabIntroduction.EnterYourName.PressKeys(username);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.BtnSubmitUserName' at 22;15.", repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserNameInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabIntroduction.BtnSubmitUserName.Click("22;15");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$WelcomeTxt) on item 'RxMainFrame.RxTabIntroduction.LblWelcomeMessage'.", repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, "Text", WelcomeTxt);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

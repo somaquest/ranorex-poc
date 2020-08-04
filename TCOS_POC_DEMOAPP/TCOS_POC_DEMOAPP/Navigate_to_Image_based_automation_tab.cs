@@ -41,6 +41,7 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Navigate_to_Image_based_automation_tab()
         {
+            ImageBasedHeader = "Image-based automation";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _ImageBasedHeader;
+
+        /// <summary>
+        /// Gets or sets the value of variable ImageBasedHeader.
+        /// </summary>
+        [TestVariable("0a3c2d12-f8a0-4843-ba0c-30fd521429e8")]
+        public string ImageBasedHeader
+        {
+            get { return _ImageBasedHeader; }
+            set { _ImageBasedHeader = value; }
+        }
 
 #endregion
 
@@ -79,6 +92,18 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.ImageBasedAutomation' at 23;8.", repo.RxMainFrame.ImageBasedAutomationInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.ImageBasedAutomation.Click("23;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.RxTabImageBased1.ImageBasedHeader'.", repo.RxMainFrame.RxTabImageBased1.ImageBasedHeaderInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.RxTabImageBased1.ImageBasedHeaderInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$ImageBasedHeader) on item 'RxMainFrame.RxTabImageBased1.ImageBasedHeader'.", repo.RxMainFrame.RxTabImageBased1.ImageBasedHeaderInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabImageBased1.ImageBasedHeaderInfo, "Text", ImageBasedHeader);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

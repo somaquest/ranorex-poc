@@ -79,6 +79,14 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.UploadTesting' at 82;14.", repo.RxMainFrame.UploadTestingInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.UploadTesting.Click("82;14");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.RxTabUpload.BtnStartUpload'.", repo.RxMainFrame.RxTabUpload.BtnStartUploadInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.RxTabUpload.BtnStartUploadInfo);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

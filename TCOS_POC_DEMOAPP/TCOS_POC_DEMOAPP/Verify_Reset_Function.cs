@@ -41,6 +41,7 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Verify_Reset_Function()
         {
+            WelcomeTxtDefault = "Welcome!";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _WelcomeTxtDefault;
+
+        /// <summary>
+        /// Gets or sets the value of variable WelcomeTxtDefault.
+        /// </summary>
+        [TestVariable("6e37282b-845a-4967-b2ad-353cd79b90d2")]
+        public string WelcomeTxtDefault
+        {
+            get { return _WelcomeTxtDefault; }
+            set { _WelcomeTxtDefault = value; }
+        }
 
 #endregion
 
@@ -79,6 +92,17 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabIntroduction.Reset' at 25;9.", repo.RxMainFrame.RxTabIntroduction.ResetInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabIntroduction.Reset.Click("25;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 1s.", new RecordItemIndex(1));
+            Delay.Duration(1000, false);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$WelcomeTxtDefault) on item 'RxMainFrame.RxTabIntroduction.LblWelcomeMessage'.", repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabIntroduction.LblWelcomeMessageInfo, "Text", WelcomeTxtDefault);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

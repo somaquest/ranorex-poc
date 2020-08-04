@@ -33,5 +33,11 @@ namespace TCOS_POC_DEMOAPP
             // Your recording specific initialization code goes here.
         }
 
+        public void Mouse_Click_UIElementTestArea(RepoItemInfo tabpageInfo)
+        {
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'tabpageInfo' at 82;14.", tabpageInfo);
+            tabpageInfo.FindAdapter<TabPage>().Click("82;14");
+        }
+
     }
 }

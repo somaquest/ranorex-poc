@@ -123,8 +123,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_multiple_entries.cs">
+      <DependentUpon>Add_multiple_entries.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>744ddc10-7fd7-457b-af06-6b9dab99c575</id>
+      <BoundTo>eda45632-855b-4545-9c5f-4b34477c03a1</BoundTo>
+    </Compile>
+    <Compile Include="Add_multiple_entries.UserCode.cs">
+      <DependentUpon>Add_multiple_entries.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a88a076-7275-40f7-832a-8c865baed807</id>
+      <BoundTo>eda45632-855b-4545-9c5f-4b34477c03a1</BoundTo>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>2759abc0-1da5-47fa-90ef-c244092bf89b</id>
+    </Compile>
+    <Compile Include="click_reset_button.cs">
+      <BoundTo>27474ad5-c74b-4412-a5f1-5e97f0fed9c1</BoundTo>
+      <DependentUpon>click_reset_button.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f405d1cc-5ce9-48e4-aef8-5d83d1081e10</id>
+    </Compile>
+    <Compile Include="click_reset_button.UserCode.cs">
+      <BoundTo>27474ad5-c74b-4412-a5f1-5e97f0fed9c1</BoundTo>
+      <DependentUpon>click_reset_button.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c63c47c3-c1b0-4dda-877f-dddb7570673d</id>
     </Compile>
     <Compile Include="Click_Reset_Verify_Progressbar.cs">
       <BoundTo>668ae503-4eae-45a4-9d10-d44747e79f91</BoundTo>
@@ -137,6 +161,9 @@
       <DependentUpon>Click_Reset_Verify_Progressbar.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>fb28b2af-1fa6-4b39-9ceb-d7ca29213162</id>
+    </Compile>
+    <Compile Include="Code modules\ValidateListItems.cs">
+      <id>79e2252d-3628-4a5b-8ca9-6a92675b16d1</id>
     </Compile>
     <Compile Include="Collapse_Items_In_TreeView.cs">
       <BoundTo>99934eaf-9f04-4d54-9b55-01f421a7cb59</BoundTo>
@@ -161,6 +188,18 @@
       <DependentUpon>Compare_Listbox_Values.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>5d849e0f-e627-433f-be77-984ac7e4742b</id>
+    </Compile>
+    <Compile Include="Remove_multiple_entries.cs">
+      <DependentUpon>Remove_multiple_entries.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d55216a2-168d-47d0-8029-982172ab7fa2</id>
+      <BoundTo>ac079b10-055d-45cf-932e-45947ee64041</BoundTo>
+    </Compile>
+    <Compile Include="Remove_multiple_entries.UserCode.cs">
+      <DependentUpon>Remove_multiple_entries.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c825563b-f6be-4d51-9248-3f26bbdb0164</id>
+      <BoundTo>ac079b10-055d-45cf-932e-45947ee64041</BoundTo>
     </Compile>
     <Compile Include="Expand_Items_In_TreeView.cs">
       <BoundTo>a15cb262-4170-4eed-8931-acf3bc11dfaf</BoundTo>
@@ -197,6 +236,18 @@
       <DependentUpon>Select_All_Table_Rows.rxrec</DependentUpon>
       <UserCode>true</UserCode>
       <id>968ad03c-eaaa-4083-b474-4b67f8694fca</id>
+    </Compile>
+    <Compile Include="SHOWIMAGE.cs">
+      <DependentUpon>SHOWIMAGE.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dad9b6a0-d380-401f-9cb9-0fe719eeb7af</id>
+      <BoundTo>cc7a475c-1774-47cf-8715-ed1751c5ba06</BoundTo>
+    </Compile>
+    <Compile Include="SHOWIMAGE.UserCode.cs">
+      <DependentUpon>SHOWIMAGE.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>994e032d-72e5-4b61-87f0-aa746013ec89</id>
+      <BoundTo>cc7a475c-1774-47cf-8715-ed1751c5ba06</BoundTo>
     </Compile>
     <Compile Include="Upload_File_And_Verify_Progressbar.cs">
       <BoundTo>dbbe1cc2-56c6-4ecb-a8d8-954074e3c83a</BoundTo>
@@ -401,28 +452,18 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DemoApp_Imagebased.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>6b1c8da9-ca55-4e5c-91ec-cb19477407fd</id>
-    </Content>
-    <Content Include="DemoApp_Introduction.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>211b41fc-4e2c-4d93-8c33-4feccda7afb6</id>
-    </Content>
-    <Content Include="DemoApp_TestDatabase.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>a5f01524-c912-466d-b1da-c8c6335efb1a</id>
-    </Content>
-    <Content Include="DemoApp_UIElementTestArea.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>32dd31f7-62e2-453a-a409-dbfdc854236b</id>
-    </Content>
-    <Content Include="DemoApp_UploadTesting.rxtst">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <id>bbdd431d-7d21-4aef-bdb7-3e8767672239</id>
-    </Content>
+    <None Include="Add_multiple_entries.rxrec">
+      <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
+      <id>eda45632-855b-4545-9c5f-4b34477c03a1</id>
+      <recordtableid>35e06a5c-5eb6-47b0-a83f-926e27528162</recordtableid>
+    </None>
     <None Include="app.config">
       <id>ae4904c2-9ecf-4c9a-aec0-1f2a14e68653</id>
+    </None>
+    <None Include="click_reset_button.rxrec">
+      <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
+      <id>27474ad5-c74b-4412-a5f1-5e97f0fed9c1</id>
+      <recordtableid>2e9c8b63-7b4f-41fe-a53d-dee98988bdfb</recordtableid>
     </None>
     <None Include="Click_Reset_Verify_Progressbar.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
@@ -439,6 +480,14 @@
       <id>0a7dfa7a-e46b-425e-9f86-3b6fe949d726</id>
       <recordtableid>33a820f1-3795-435b-a154-98d6a73a83cf</recordtableid>
     </None>
+    <None Include="data_navigation.csv">
+      <id>ef305ab5-add1-4972-8b61-170ba89aac6c</id>
+    </None>
+    <None Include="Remove_multiple_entries.rxrec">
+      <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
+      <id>ac079b10-055d-45cf-932e-45947ee64041</id>
+      <recordtableid>0a29d09b-e646-43e0-8e2b-1c717413faf1</recordtableid>
+    </None>
     <None Include="Expand_Items_In_TreeView.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>a15cb262-4170-4eed-8931-acf3bc11dfaf</id>
@@ -454,6 +503,21 @@
       <id>ff1605fc-94ee-4064-afc1-b45b844214ec</id>
       <recordtableid>8a48b0be-7d86-4770-a456-b3bd4ab52113</recordtableid>
     </None>
+    <None Include="SHOWIMAGE.rxrec">
+      <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
+      <id>cc7a475c-1774-47cf-8715-ed1751c5ba06</id>
+      <recordtableid>5fc36536-d961-4508-a4a3-fdc54649a5e1</recordtableid>
+    </None>
+    <None Include="testdata.xlsx">
+      <id>672af092-e28c-4f58-9730-49a65ff3d818</id>
+    </None>
+    <Content Include="testdata.xlsx">
+      <Link>testdata.xlsx</Link>
+      <BoundTo>83ae38cf-3ed1-4ade-80d0-ab4fdd6b6809</BoundTo>
+      <DependentUpon>DemoApp_UI_Smoke.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2f66f955-7b58-48cc-acbe-bf416c2c57be</id>
+    </Content>
     <None Include="Upload_File_And_Verify_Progressbar.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>dbbe1cc2-56c6-4ecb-a8d8-954074e3c83a</id>
@@ -467,7 +531,7 @@
     <None Include="CloseAUT.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>f3a6d732-8214-4eef-bdcf-3f6e2358b6f2</id>
-      <recordtableid>fd5591b9-4a9b-4045-9035-749b4725cab1</recordtableid>
+      <recordtableid>d96aff6e-7eeb-4e96-9843-942dfb75264c</recordtableid>
     </None>
     <None Include="Navigate_to_Test_database_tab.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
@@ -512,7 +576,7 @@
     <None Include="StartAUT.rxrec">
       <BoundTo>7081ee5f-f73a-4350-bbae-7ab4d6c61c1a</BoundTo>
       <id>8c3c832b-f5c6-4ed0-ad20-9dde456fe00a</id>
-      <recordtableid>a016902c-5633-4893-885d-647761fa0eeb</recordtableid>
+      <recordtableid>63e021d7-56bf-452e-8ec0-71d78c6d7898</recordtableid>
     </None>
     <Content Include="TCOS_POC_DEMOAPP.rxsqc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -555,10 +619,21 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>d4a5595f-ce8d-4dbd-995b-c227ddc02dc1</id>
     </Content>
-    <Content Include="DemoApp_Navigation.rxtst">
+    <Content Include="DemoApp_UI_Smoke.rxtst">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <id>83ae38cf-3ed1-4ade-80d0-ab4fdd6b6809</id>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code modules">
+      <id>682f2d2f-ef81-41ee-ba5d-9370e7a08a9a</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RanorexAutomationHelpers\Ranorex Automation Helpers.csproj">
+      <Project>{9513FB1D-535C-4A63-B504-CC45027759B4}</Project>
+      <Name>Ranorex Automation Helpers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />

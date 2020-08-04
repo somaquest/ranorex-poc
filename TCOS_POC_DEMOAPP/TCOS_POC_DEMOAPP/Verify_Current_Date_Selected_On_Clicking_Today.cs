@@ -79,9 +79,41 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabImageBased1.MonthCalendar1' at 11;4.", repo.RxMainFrame.RxTabImageBased1.MonthCalendar1Info, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabImageBased1.MonthCalendar1.Click(new Location(MonthCalendar1_Screenshot3, "11;4", MonthCalendar1_Screenshot3_Options));
+            Delay.Milliseconds(94800);
+            
+            //Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabImageBased1.MonthCalendar1' at 15;4.", repo.RxMainFrame.RxTabImageBased1.MonthCalendar1Info, new RecordItemIndex(1));
+            //repo.RxMainFrame.RxTabImageBased1.MonthCalendar1.Click(new Location(MonthCalendar1_Screenshot3_2, "15;4", MonthCalendar1_Screenshot3_2_Options));
+            //Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage MonthCalendar1_Screenshot3
+        { get { return repo.RxMainFrame.RxTabImageBased1.MonthCalendar1Info.GetScreenshot3(new Rectangle(158, 67, 15, 11)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions MonthCalendar1_Screenshot3_Options
+        { get { return Imaging.FindOptions.Default; } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage MonthCalendar1_Screenshot3_2
+        { get { return repo.RxMainFrame.RxTabImageBased1.MonthCalendar1Info.GetScreenshot3(new Rectangle(68, 141, 31, 15)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions MonthCalendar1_Screenshot3_2_Options
+        { get { return Imaging.FindOptions.Default; } }
+
 #endregion
     }
 #pragma warning restore 0436

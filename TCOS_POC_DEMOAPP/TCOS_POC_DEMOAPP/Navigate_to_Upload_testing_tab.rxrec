@@ -25,6 +25,53 @@ mode="Global">
 	<variables>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="82;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="26a03a9f-b909-4858-acec-ac292afcc114"
+		sx="792"
+		sy="281"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="ab27b977-d00e-4f92-8332-c841f3e8d06b"
+			sourcename="Recorder">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='Upload testing']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="77676513-ac6b-4fe4-b3b4-4430e4843ba0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7b42bb9d-5f99-4b9f-985f-b95160e5e03c"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUpload']/button[@controlname='btnStartUpload']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="055c5840-e07d-43b0-ba49-91890698f03d"

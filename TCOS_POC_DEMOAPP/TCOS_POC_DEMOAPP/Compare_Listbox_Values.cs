@@ -41,6 +41,9 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Compare_Listbox_Values()
         {
+            listvalue = "";
+            listItems = "";
+            subTreeItems = "";
         }
 
         /// <summary>
@@ -52,6 +55,42 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _listvalue;
+
+        /// <summary>
+        /// Gets or sets the value of variable listvalue.
+        /// </summary>
+        [TestVariable("2835483b-64e6-415f-bfad-9ffd3d136453")]
+        public string listvalue
+        {
+            get { return _listvalue; }
+            set { _listvalue = value; }
+        }
+
+        string _listItems;
+
+        /// <summary>
+        /// Gets or sets the value of variable listItems.
+        /// </summary>
+        [TestVariable("58d63425-9043-4a8d-b450-fce2f211239b")]
+        public string listItems
+        {
+            get { return _listItems; }
+            set { _listItems = value; }
+        }
+
+        string _subTreeItems;
+
+        /// <summary>
+        /// Gets or sets the value of variable subTreeItems.
+        /// </summary>
+        [TestVariable("79f7b6fe-df4c-415f-8a0f-70376e836312")]
+        public string subTreeItems
+        {
+            get { return _subTreeItems; }
+            set { _subTreeItems = value; }
+        }
 
 #endregion
 
@@ -79,6 +118,25 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.", repo.RxMainFrame.RxTabUIElements.DownInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabUIElements.Down.Click("7;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.", repo.RxMainFrame.RxTabUIElements.DownInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabUIElements.Down.Click("7;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.", repo.RxMainFrame.RxTabUIElements.DownInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabUIElements.Down.Click("7;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 11;14.", repo.RxMainFrame.RxTabUIElements.DownInfo, new RecordItemIndex(3));
+            repo.RxMainFrame.RxTabUIElements.Down.Click("11;14");
+            Delay.Milliseconds(0);
+            
+            //Get_value_LstTestBox(repo.RxMainFrame.RxTabUIElements.LstTestBoxInfo, listItems);
+            //Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

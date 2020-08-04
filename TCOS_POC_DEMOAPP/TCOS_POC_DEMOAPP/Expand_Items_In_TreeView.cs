@@ -53,6 +53,16 @@ namespace TCOS_POC_DEMOAPP
 
 #region Variables
 
+        /// <summary>
+        /// Gets or sets the value of variable parentTreeItem.
+        /// </summary>
+        [TestVariable("40e00175-060a-4c33-b165-6c1d126d3bf8")]
+        public string parentTreeItem
+        {
+            get { return repo.parentTreeItem; }
+            set { repo.parentTreeItem = value; }
+        }
+
 #endregion
 
         /// <summary>
@@ -79,6 +89,102 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;10.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("14;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 11;11.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("11;11");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 9;23.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(3));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("9;23");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(4));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Up}{Up}{Up}{Up 2}{Up}{Up}{Up}{Up}{Up}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(5));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Up}{Up}{Up}{Up 2}{Up}{Up}{Up}{Up}{Up}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;25.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(6));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("14;25");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;48.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(7));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("14;48");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(8));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down}{Down}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 12;45.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(9));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("12;45");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 12;66.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(10));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("12;66");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.MainTreeItem' at 23;4.", repo.RxMainFrame.RxTabUIElements.MainTreeItemInfo, new RecordItemIndex(11));
+            repo.RxMainFrame.RxTabUIElements.MainTreeItem.Click("23;4");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.MainTreeItem'.", repo.RxMainFrame.RxTabUIElements.MainTreeItemInfo, new RecordItemIndex(12));
+            repo.RxMainFrame.RxTabUIElements.MainTreeItem.PressKeys("{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 9;66.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(13));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("9;66");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;86.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(14));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("14;86");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down 7}{Down 2}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(15));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down 7}{Down 2}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Up 16}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(16));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Up 16}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 11;63.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(17));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("11;63");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 13;99.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(18));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("13;99");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down 13}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(19));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down 13}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;46.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(20));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("14;46");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 10;118.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(21));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("10;118");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(22));
+            repo.RxMainFrame.RxTabUIElements.TreeView.PressKeys("{Down}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 13;78.", repo.RxMainFrame.RxTabUIElements.TreeViewInfo, new RecordItemIndex(23));
+            repo.RxMainFrame.RxTabUIElements.TreeView.Click("13;78");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

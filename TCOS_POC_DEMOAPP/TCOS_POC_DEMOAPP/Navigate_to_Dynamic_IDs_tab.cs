@@ -79,6 +79,14 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DynamicIDs' at 25;8.", repo.RxMainFrame.DynamicIDsInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.DynamicIDs.Click("25;8");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.ChkShowDynamicID'.", repo.RxMainFrame.ChkShowDynamicIDInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.ChkShowDynamicIDInfo);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

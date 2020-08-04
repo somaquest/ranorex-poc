@@ -26,7 +26,7 @@ namespace TCOS_POC_DEMOAPP
     /// <summary>
     ///The StartAUT recording.
     /// </summary>
-    [TestModule("a016902c-5633-4893-885d-647761fa0eeb", ModuleType.Recording, 1)]
+    [TestModule("63e021d7-56bf-452e-8ec0-71d78c6d7898", ModuleType.Recording, 1)]
     public partial class StartAUT : ITestModule
     {
         /// <summary>
@@ -59,7 +59,7 @@ namespace TCOS_POC_DEMOAPP
         /// <summary>
         /// Gets or sets the value of variable StartAutProcessIDVar.
         /// </summary>
-        [TestVariable("dbd71d3f-cfd1-42b3-b88e-9b88a55554bb")]
+        [TestVariable("81412f9f-b56a-4691-a738-06d59a13b1da")]
         public string StartAutProcessIDVar
         {
             get { return _StartAutProcessIDVar; }

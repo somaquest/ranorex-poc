@@ -79,6 +79,22 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.UploadTesting' at 82;14.", repo.RxMainFrame.UploadTestingInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.UploadTesting.Click("82;14");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUpload.RBSlow' at 9;7.", repo.RxMainFrame.RxTabUpload.RBSlowInfo, new RecordItemIndex(1));
+            repo.RxMainFrame.RxTabUpload.RBSlow.Click("9;7");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUpload.BtnStartUpload' at 83;8.", repo.RxMainFrame.RxTabUpload.BtnStartUploadInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.RxTabUpload.BtnStartUpload.Click("83;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text='Upload finished') on item 'RxMainFrame.RxTabUpload.LblFinished'.", repo.RxMainFrame.RxTabUpload.LblFinishedInfo, new RecordItemIndex(3));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabUpload.LblFinishedInfo, "Text", "Upload finished");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

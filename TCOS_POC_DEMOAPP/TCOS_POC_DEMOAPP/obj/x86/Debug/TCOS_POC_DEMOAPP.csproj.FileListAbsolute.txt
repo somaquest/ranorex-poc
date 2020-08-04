@@ -1,11 +1,5 @@
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_Imagebased.rxtst
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_Introduction.rxtst
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_TestDatabase.rxtst
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_UIElementTestArea.rxtst
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_UploadTesting.rxtst
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.rxsqc
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.rxtmg
-C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_Navigation.rxtst
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.exe.config
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.xml
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\TCOS_POC_DEMOAPP.exe
@@ -14,3 +8,10 @@ C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAP
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.csprojResolveAssemblyReference.cache
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.exe
 C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\obj\x86\Debug\TCOS_POC_DEMOAPP.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\DemoApp_UI_Smoke.rxtst
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\RepositoryImages\TCOS_POC_DEMOAPPRepository95af092a.rximgres
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\testdata.xlsx
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\Ranorex Automation Helpers.dll
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\Ranorex.ReportToPDF.exe
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\Ranorex Automation Helpers.pdb
+C:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\bin\Debug\Ranorex Automation Helpers.xml

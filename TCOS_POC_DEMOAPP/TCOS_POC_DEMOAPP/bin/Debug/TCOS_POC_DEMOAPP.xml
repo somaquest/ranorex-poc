@@ -4,6 +4,120 @@
         <name>TCOS_POC_DEMOAPP</name>
     </assembly>
     <members>
+        <member name="T:TCOS_POC_DEMOAPP.Add_multiple_entries">
+             <summary>
+            The Add_multiple_entries recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Add_multiple_entries.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Add_multiple_entries.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Add_multiple_entries.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Add_multiple_entries.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Add_multiple_entries.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Add_multiple_entries.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.firstname">
+            <summary>
+            Gets or sets the value of variable firstname.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.lastname">
+            <summary>
+            Gets or sets the value of variable lastname.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.age">
+            <summary>
+            Gets or sets the value of variable age.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.Department">
+            <summary>
+            Gets or sets the value of variable Department.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.genderRef">
+            <summary>
+            Gets or sets the value of variable genderRef.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Add_multiple_entries.entryValue">
+            <summary>
+            Gets or sets the value of variable entryValue.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Add_multiple_entries_to_db.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.click_reset_button">
+             <summary>
+            The click_reset_button recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.click_reset_button.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.click_reset_button.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.click_reset_button.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.click_reset_button.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.click_reset_button.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.click_reset_button.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.click_reset_button.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Click_Reset_Verify_Progressbar">
              <summary>
             The Click_Reset_Verify_Progressbar recording.
@@ -42,6 +156,25 @@
             <summary>
             Gets a static instance of this recording.
             </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Code_modules.ValidateListItems">
+            <summary>
+            Description of ValidateListItems.
+            </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Code_modules.ValidateListItems._expectedListItems">
+            <summary>
+            Constructs a new instance.
+            </summary>
+            
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Code_modules.ValidateListItems.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Collapse_Items_In_TreeView">
              <summary>
@@ -115,10 +248,70 @@
             This method gets called right after the recording has been started.
             It can be used to execute recording specific initialization code.
             </summary>
+            
         </member>
         <member name="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.listvalue">
+            <summary>
+            Gets or sets the value of variable listvalue.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.listItems">
+            <summary>
+            Gets or sets the value of variable listItems.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Compare_Listbox_Values.subTreeItems">
+            <summary>
+            Gets or sets the value of variable subTreeItems.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.Remove_multiple_entries">
+             <summary>
+            The Remove_multiple_entries recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.Remove_multiple_entries.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_multiple_entries.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_multiple_entries.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.Remove_multiple_entries.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_multiple_entries.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.Remove_multiple_entries.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Remove_multiple_entries.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Remove_multiple_entries.entryValue">
+            <summary>
+            Gets or sets the value of variable entryValue.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView">
@@ -158,6 +351,11 @@
         <member name="P:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Expand_Items_In_TreeView.parentTreeItem">
+            <summary>
+            Gets or sets the value of variable parentTreeItem.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Reset_Selection">
@@ -234,6 +432,45 @@
             </summary>
         </member>
         <member name="P:TCOS_POC_DEMOAPP.Select_All_Table_Rows.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.SHOWIMAGE">
+             <summary>
+            The SHOWIMAGE recording.
+             </summary>
+        </member>
+        <member name="F:TCOS_POC_DEMOAPP.SHOWIMAGE.repo">
+            <summary>
+            Holds an instance of the TCOS_POC_DEMOAPPRepository repository.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.SHOWIMAGE.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.SHOWIMAGE.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TCOS_POC_DEMOAPP.SHOWIMAGE.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.SHOWIMAGE.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.SHOWIMAGE.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.SHOWIMAGE.Instance">
             <summary>
             Gets a static instance of this recording.
             </summary>
@@ -399,6 +636,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Test_database_tab.TestDatabaseHeader">
+            <summary>
+            Gets or sets the value of variable TestDatabaseHeader.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab">
              <summary>
             The Navigate_to_Image_based_automation_tab recording.
@@ -438,6 +680,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Image_based_automation_tab.ImageBasedHeader">
+            <summary>
+            Gets or sets the value of variable ImageBasedHeader.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab">
              <summary>
             The Navigate_to_UI_element_test_area_tab recording.
@@ -475,6 +722,11 @@
         <member name="P:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_UI_element_test_area_tab.UIElementHeader">
+            <summary>
+            Gets or sets the value of variable UIElementHeader.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Navigate_to_Upload_testing_tab">
@@ -594,6 +846,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.Navigate_to_Object_identification_tab.ObjectIdentificationHeader">
+            <summary>
+            Gets or sets the value of variable ObjectIdentificationHeader.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry">
              <summary>
             The Fill_In_Form_And_Click_Add_Entry recording.
@@ -636,6 +893,11 @@
         <member name="P:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.Firstname">
             <summary>
             Gets or sets the value of variable Firstname.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Fill_In_Form_And_Click_Add_Entry.parentTreeItem">
+            <summary>
+            Gets or sets the value of variable parentTreeItem.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Remove_All_Entries_In_Table">
@@ -736,6 +998,31 @@
             Gets the singleton class instance representing the TCOS_POC_DEMOAPPRepository element repository.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.gender">
+            <summary>
+            Gets or sets the value of variable gender.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.entryValue">
+            <summary>
+            Gets or sets the value of variable entryValue.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.genderRef">
+            <summary>
+            Gets or sets the value of variable genderRef.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.Department">
+            <summary>
+            Gets or sets the value of variable Department.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.parentTreeItem">
+            <summary>
+            Gets or sets the value of variable parentTreeItem.
+            </summary>
+        </member>
         <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepository.SelfInfo">
             <summary>
             The Self item info.
@@ -776,19 +1063,584 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Text1001">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.TestDatabase">
             <summary>
-            The Text1001 item.
+            The TestDatabase item.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Text1001Info">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.TestDatabaseInfo">
             <summary>
-            The Text1001 item info.
+            The TestDatabase item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ImageBasedAutomation">
+            <summary>
+            The ImageBasedAutomation item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ImageBasedAutomationInfo">
+            <summary>
+            The ImageBasedAutomation item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.UIElementTestArea">
+            <summary>
+            The UIElementTestArea item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.UIElementTestAreaInfo">
+            <summary>
+            The UIElementTestArea item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.UploadTesting">
+            <summary>
+            The UploadTesting item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.UploadTestingInfo">
+            <summary>
+            The UploadTesting item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.DynamicIDs">
+            <summary>
+            The DynamicIDs item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.DynamicIDsInfo">
+            <summary>
+            The DynamicIDs item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ObjectIdentification">
+            <summary>
+            The ObjectIdentification item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ObjectIdentificationInfo">
+            <summary>
+            The ObjectIdentification item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RdbGreenLight">
+            <summary>
+            The RdbGreenLight item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RdbGreenLightInfo">
+            <summary>
+            The RdbGreenLight item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RdbRedLight">
+            <summary>
+            The RdbRedLight item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RdbRedLightInfo">
+            <summary>
+            The RdbRedLight item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PnlColourPanel">
+            <summary>
+            The PnlColourPanel item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.PnlColourPanelInfo">
+            <summary>
+            The PnlColourPanel item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.BtnButton1">
+            <summary>
+            The BtnButton1 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.BtnButton1Info">
+            <summary>
+            The BtnButton1 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.Down">
+            <summary>
+            The Down item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.DownInfo">
+            <summary>
+            The Down item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.WebTesting">
+            <summary>
+            The WebTesting item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.WebTestingInfo">
+            <summary>
+            The WebTesting item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RanorexStudioDemoApplication">
+            <summary>
+            The RanorexStudioDemoApplication item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RanorexStudioDemoApplicationInfo">
+            <summary>
+            The RanorexStudioDemoApplication item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ChkShowDynamicID">
+            <summary>
+            The ChkShowDynamicID item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ChkShowDynamicIDInfo">
+            <summary>
+            The ChkShowDynamicID item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ObjectIdentificationheader">
+            <summary>
+            The ObjectIdentificationheader item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.ObjectIdentificationheaderInfo">
+            <summary>
+            The ObjectIdentificationheader item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabIntroduction">
+            <summary>
+            The RxTabIntroduction folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabUpload">
+            <summary>
+            The RxTabUpload folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabUIElements">
+            <summary>
+            The RxTabUIElements folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.DataGridView1">
+            <summary>
+            The DataGridView1 folder.
             </summary>
         </member>
         <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabStandard">
             <summary>
             The RxTabStandard folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxMainFrameAppFolder.RxTabImageBased1">
+            <summary>
+            The RxTabImageBased1 folder.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder">
+            <summary>
+            The RxTabIntroductionFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabIntroduction  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.EnterYourName">
+            <summary>
+            The EnterYourName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.EnterYourNameInfo">
+            <summary>
+            The EnterYourName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.BtnSubmitUserName">
+            <summary>
+            The BtnSubmitUserName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.BtnSubmitUserNameInfo">
+            <summary>
+            The BtnSubmitUserName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.Reset">
+            <summary>
+            The Reset item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.ResetInfo">
+            <summary>
+            The Reset item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.LblWelcomeMessage">
+            <summary>
+            The LblWelcomeMessage item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabIntroductionFolder.LblWelcomeMessageInfo">
+            <summary>
+            The LblWelcomeMessage item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder">
+            <summary>
+            The RxTabUploadFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabUpload  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.RBSlow">
+            <summary>
+            The RBSlow item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.RBSlowInfo">
+            <summary>
+            The RBSlow item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.BtnStartUpload">
+            <summary>
+            The BtnStartUpload item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.BtnStartUploadInfo">
+            <summary>
+            The BtnStartUpload item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.UploadProgressbar">
+            <summary>
+            The UploadProgressbar item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.UploadProgressbarInfo">
+            <summary>
+            The UploadProgressbar item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.LblFinished">
+            <summary>
+            The LblFinished item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.LblFinishedInfo">
+            <summary>
+            The LblFinished item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.ResetUpload">
+            <summary>
+            The ResetUpload item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUploadFolder.ResetUploadInfo">
+            <summary>
+            The ResetUpload item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder">
+            <summary>
+            The RxTabUIElementsFolder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabUIElements  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.Position">
+            <summary>
+            The Position item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.PositionInfo">
+            <summary>
+            The Position item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LineDown">
+            <summary>
+            The LineDown item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LineDownInfo">
+            <summary>
+            The LineDown item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LineUp">
+            <summary>
+            The LineUp item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LineUpInfo">
+            <summary>
+            The LineUp item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.TreeView">
+            <summary>
+            The TreeView item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.TreeViewInfo">
+            <summary>
+            The TreeView item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.RdbGreenLight">
+            <summary>
+            The RdbGreenLight item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.RdbGreenLightInfo">
+            <summary>
+            The RdbGreenLight item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.PnlColourPanel">
+            <summary>
+            The PnlColourPanel item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.PnlColourPanelInfo">
+            <summary>
+            The PnlColourPanel item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.RdbRedLight">
+            <summary>
+            The RdbRedLight item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.RdbRedLightInfo">
+            <summary>
+            The RdbRedLight item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.BtnButton1">
+            <summary>
+            The BtnButton1 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.BtnButton1Info">
+            <summary>
+            The BtnButton1 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.Down">
+            <summary>
+            The Down item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.DownInfo">
+            <summary>
+            The Down item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.MainTreeItem">
+            <summary>
+            The MainTreeItem item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.MainTreeItemInfo">
+            <summary>
+            The MainTreeItem item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.TestareaHeader">
+            <summary>
+            The TestareaHeader item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.TestareaHeaderInfo">
+            <summary>
+            The TestareaHeader item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LstTestBox">
+            <summary>
+            The LstTestBox item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.LstTestBoxInfo">
+            <summary>
+            The LstTestBox item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.MobileTesting">
+            <summary>
+            The MobileTesting item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.MobileTestingInfo">
+            <summary>
+            The MobileTesting item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.Endpoints">
+            <summary>
+            The Endpoints item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.EndpointsInfo">
+            <summary>
+            The Endpoints item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.WebAndMobileTesting">
+            <summary>
+            The WebAndMobileTesting item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabUIElementsFolder.WebAndMobileTestingInfo">
+            <summary>
+            The WebAndMobileTesting item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder">
+            <summary>
+            The DataGridView1Folder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DataGridView1  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.FirstNameRow0">
+            <summary>
+            The FirstNameRow0 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.FirstNameRow0Info">
+            <summary>
+            The FirstNameRow0 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.IORow0">
+            <summary>
+            The IORow0 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.IORow0Info">
+            <summary>
+            The IORow0 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.LastNameRow0">
+            <summary>
+            The LastNameRow0 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.LastNameRow0Info">
+            <summary>
+            The LastNameRow0 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.Row0">
+            <summary>
+            The Row0 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.Row0Info">
+            <summary>
+            The Row0 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.DataGridViewTextBoxEditingControl">
+            <summary>
+            The DataGridViewTextBoxEditingControl item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.DataGridViewTextBoxEditingControlInfo">
+            <summary>
+            The DataGridViewTextBoxEditingControl item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.IORow7">
+            <summary>
+            The IORow7 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.IORow7Info">
+            <summary>
+            The IORow7 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.Row7">
+            <summary>
+            The Row7 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.Row7Info">
+            <summary>
+            The Row7 item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.FirstNameRow7">
+            <summary>
+            The FirstNameRow7 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.DataGridView1Folder.FirstNameRow7Info">
+            <summary>
+            The FirstNameRow7 item info.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder">
@@ -811,14 +1663,44 @@
             The Self item info.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMale">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.Open">
             <summary>
-            The RdbMale item.
+            The Open item.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMaleInfo">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.OpenInfo">
             <summary>
-            The RdbMale item info.
+            The Open item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.Gender">
+            <summary>
+            The Gender item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.GenderInfo">
+            <summary>
+            The Gender item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
             </summary>
         </member>
         <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.UpDownEdit">
@@ -841,35 +1723,184 @@
             The BtnAddPerson item info.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartment">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.EntryValue">
             <summary>
-            The CmbDepartment item.
+            The EntryValue item.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.CmbDepartmentInfo">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.EntryValueInfo">
             <summary>
-            The CmbDepartment item info.
+            The EntryValue item info.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstName">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.SNEHARAJFemale22Sales">
             <summary>
-            The TxtFirstName item.
+            The SNEHARAJFemale22Sales item.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtFirstNameInfo">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.SNEHARAJFemale22SalesInfo">
             <summary>
-            The TxtFirstName item info.
+            The SNEHARAJFemale22Sales item info.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastName">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMale">
             <summary>
-            The TxtLastName item.
+            The RdbMale item.
             </summary>
         </member>
-        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TxtLastNameInfo">
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.RdbMaleInfo">
             <summary>
-            The TxtLastName item info.
+            The RdbMale item info.
             </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnDeletePerson">
+            <summary>
+            The BtnDeletePerson item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.BtnDeletePersonInfo">
+            <summary>
+            The BtnDeletePerson item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.KarthickCMale22Development">
+            <summary>
+            The KarthickCMale22Development item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.KarthickCMale22DevelopmentInfo">
+            <summary>
+            The KarthickCMale22Development item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TestdatabaseHeader">
+            <summary>
+            The TestdatabaseHeader item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabStandardFolder.TestdatabaseHeaderInfo">
+            <summary>
+            The TestdatabaseHeader item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder">
+            <summary>
+            The RxTabImageBased1Folder folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RxTabImageBased1  folder.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.RxTabImageBased">
+            <summary>
+            The RxTabImageBased item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.RxTabImageBasedInfo">
+            <summary>
+            The RxTabImageBased item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.ChkShowImage">
+            <summary>
+            The ChkShowImage item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.ChkShowImageInfo">
+            <summary>
+            The ChkShowImage item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.TheCat">
+            <summary>
+            The TheCat item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.TheCatInfo">
+            <summary>
+            The TheCat item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.ImageBasedHeader">
+            <summary>
+            The ImageBasedHeader item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.ImageBasedHeaderInfo">
+            <summary>
+            The ImageBasedHeader item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1">
+            <summary>
+            The MonthCalendar1 item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1Info">
+            <summary>
+            The MonthCalendar1 item info.
+            </summary>
+        </member>
+        <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass">
+            <summary>
+            The MonthCalendar1InfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            MonthCalendar1InfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot3">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <returns>The Screenshot3 image.</returns>
+        </member>
+        <member name="M:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.RxTabImageBased1Folder.MonthCalendar1InfoClass.GetScreenshot3(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot3 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder">
             <summary>
@@ -889,6 +1920,36 @@
         <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.SelfInfo">
             <summary>
             The Self item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.Department">
+            <summary>
+            The Department item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.DepartmentInfo">
+            <summary>
+            The Department item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.Sales">
+            <summary>
+            The Sales item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.SalesInfo">
+            <summary>
+            The Sales item info.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.Development">
+            <summary>
+            The Development item.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.TCOS_POC_DEMOAPPRepositoryFolders.List1000AppFolder.DevelopmentInfo">
+            <summary>
+            The Development item info.
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today">
@@ -928,6 +1989,26 @@
         <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.MonthCalendar1_Screenshot3">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.MonthCalendar1_Screenshot3_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.MonthCalendar1_Screenshot3_2">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Current_Date_Selected_On_Clicking_Today.MonthCalendar1_Screenshot3_2_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
             </summary>
         </member>
         <member name="T:TCOS_POC_DEMOAPP.Verify_Red_Image_Is_Shown">
@@ -1008,6 +2089,11 @@
             Gets a static instance of this recording.
             </summary>
         </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Reset_Function.WelcomeTxtDefault">
+            <summary>
+            Gets or sets the value of variable WelcomeTxtDefault.
+            </summary>
+        </member>
         <member name="T:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage">
              <summary>
             The Verify_Welcome_Mesage recording.
@@ -1045,6 +2131,16 @@
         <member name="P:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.Instance">
             <summary>
             Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.username">
+            <summary>
+            Gets or sets the value of variable username.
+            </summary>
+        </member>
+        <member name="P:TCOS_POC_DEMOAPP.Verify_Welcome_Mesage.WelcomeTxt">
+            <summary>
+            Gets or sets the value of variable WelcomeTxt.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

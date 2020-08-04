@@ -79,6 +79,14 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RxTabUIElements.RdbGreenLight' at 10;9.", repo.RxMainFrame.RxTabUIElements.RdbGreenLightInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.RxTabUIElements.RdbGreenLight.Click("10;9");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.RxTabUIElements.PnlColourPanel'.", repo.RxMainFrame.RxTabUIElements.PnlColourPanelInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.RxTabUIElements.PnlColourPanelInfo);
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data

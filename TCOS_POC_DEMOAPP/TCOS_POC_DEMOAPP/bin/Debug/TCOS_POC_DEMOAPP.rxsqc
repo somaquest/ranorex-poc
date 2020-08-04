@@ -1,32 +1,7 @@
 [
   {
     "Enabled": "True",
-    "TestSuite": "DemoApp_Navigation",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "DemoApp_Introduction",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "DemoApp_TestDatabase",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "DemoApp_UIElementTestArea",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "DemoApp_UploadTesting",
-    "RunConfig": "TestRun"
-  },
-  {
-    "Enabled": "True",
-    "TestSuite": "DemoApp_Imagebased",
+    "TestSuite": "DemoApp_UI_Smoke",
     "RunConfig": "TestRun"
   }
 ]

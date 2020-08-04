@@ -1,0 +1,35 @@
+{
+  "ServerUrl": "https://rally-quest-global.atlassian.net/",
+  "ProjectKey": "RD",
+  "Templates": [
+    {
+      "Name": "template1",
+      "Body": {
+        "fields": {
+          "summary": "Ranorex test case $(TestCaseName)",
+          "description": "$(TestCaseTag)",
+          "project": {
+            "key": "RD"
+          },
+          "issuetype": {
+            "name": "Bug"
+          }
+        }
+      }
+    }
+  ],
+  "CreateLinkSettings": {
+    "Enabled": true,
+    "IssueType": "Bug",
+    "UrlSettings": {
+      "summary": "Ranorex test case $(TestCaseName)"
+    }
+  },
+  "UpdateIssueSettings": {
+    "Enabled": true,
+    "ClosedState": "Done",
+    "OpenState": "To Do",
+    "ShouldUploadVideo": false,
+    "CreationTemplate": "template1"
+  }
+}

@@ -1,0 +1,1504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="58.63s"
+		durationms="58631"
+		type="root"
+		rid="8d0b05876d47e71"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="somas"
+		rxversion="9.3.2.0"
+		host="DESKTOP-0SRITHK"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-IN"
+		screenresolution="1920x1080"
+		timestamp="26-07-2020 20:23:14"
+		timestampiso="2020-07-26T14:53:14"
+		endtime="26-07-2020 20:24:13"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="52.18s"
+			durationms="52181"
+			type="test-suite"
+			rid="3422717541db2c8"
+			totalerrorcount="0"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="3"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="DemoApp_UI_Smoke"
+			headertext="DemoApp_UI_Smoke"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Success"
+				duration="436ms"
+				durationms="436"
+				type="setup-container"
+				rid="53f84dd8df05649"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="416ms"
+					durationms="416"
+					type="test-module"
+					rid="6f4ec315b5f33c8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="StartAUT"
+					displayName="StartAUT"
+					moduleid="63e021d7-56bf-452e-8ec0-71d78c6d7898"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="StartAutProcessIDVar"
+							value="">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.034"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="20:23:20"
+						time="00:00.034"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$StartAutProcessIDVar = ''
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.080"
+						timeRelativeToTestModuleStartTime="00:00.052"
+						timeWallClock="20:23:21"
+						time="00:00.080"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Users\somas\Downloads\RxDemoApp\RxDemoApp.exe' in normal mode. Return value bound to $StartAutProcessIDVar.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\StartAUT.cs"
+							codeline="95"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="51.45s"
+				durationms="51451"
+				type="test-case"
+				rid="1348edb4ee998f3e"
+				totalerrorcount="0"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="4"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="8_Verify_Red_Gree_And_Reset_Function"
+				testcontainerid="a019de19-6ec3-471e-b970-729eb07d7df6"
+				headertext="8_Verify_Red_Gree_And_Reset_Function"
+				displayName="8_Verify_Red_Gree_And_Reset_Function"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<detail>
+					&lt;p&gt;Verify Red image is shown after selecting Red radio button&lt;/p&gt;&lt;p&gt;Verify Green image is shown after selecting the Green radio button&lt;/p&gt;&lt;p&gt;Verify no Red/Green radion buttons are selected after clicking Reset button&lt;/p&gt;
+				</detail>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test-module"
+					rid="7fc0ae858388454"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Verify_Green_Image_Is_Shown"
+					displayName="Verify_Green_Image_Is_Shown"
+					moduleid="ca92e171-7a0d-4865-9a5f-c260a4f30b4c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<detail>
+						Verify Green image is shown on clicking Green radio button
+					</detail>
+					<varbindings>
+					</varbindings>
+				</activity>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test-module"
+					rid="57c5b9c38d485d"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Verify_Red_Image_Is_Shown"
+					displayName="Verify_Red_Image_Is_Shown"
+					moduleid="752401a9-2e51-400a-a55d-836d67382872"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<detail>
+						Verify Red image is shown on clicking Green radio button
+					</detail>
+					<varbindings>
+					</varbindings>
+				</activity>
+				<activity
+					result="Success"
+					duration="0ms"
+					durationms="0"
+					type="test-module"
+					rid="11819afff636cabc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Reset_Selection"
+					displayName="Reset_Selection"
+					moduleid="dd850e1a-ff78-47e9-ab7f-b212beb30a00"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<detail>
+						Verify no radio buttons are selected on clicking Reset button
+					</detail>
+					<varbindings>
+					</varbindings>
+				</activity>
+				<activity
+					result="Success"
+					duration="51.44s"
+					durationms="51442"
+					type="test-module"
+					rid="37157c58b752ea2"
+					totalerrorcount="0"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Fill_In_Form_And_Click_Add_Entry"
+					displayName="Fill_In_Form_And_Click_Add_Entry"
+					moduleid="94ef9041-3ac8-49cf-81f8-af08f5ac75a6"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<detail>
+						Add entries to database
+					</detail>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.470"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="20:23:21"
+						time="00:00.470"
+						level="Warn"
+						category="Data">
+						<message>
+							The following module variables are not bound to a data column:<br/>Firstname
+						</message>
+						<metainfo
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.524"
+						timeRelativeToTestModuleStartTime="00:00.054"
+						timeWallClock="20:23:21"
+						time="00:00.524"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.UIElementTestArea' at 62;17.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='UI-element test area']"
+							itempath="?/?/tabpage[@accessiblename='UI-element test area']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.UIElementTestArea"
+							id="dae9d3e3fdeb44c7919c6f9b3ea90897"
+							timeout="60000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="95"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.886"
+						timeRelativeToTestModuleStartTime="00:03.416"
+						timeWallClock="20:23:24"
+						time="00:03.886"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.RdbGreenLight' at 10;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/radiobutton[@controlname='rdbGreenLight']"
+							itempath="container[@controlname='grpBox']/?/?/radiobutton[@controlname='rdbGreenLight']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.RdbGreenLight"
+							id="5d7d379abc3b405ba71e91727dcbd0b7"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="99"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.835"
+						timeRelativeToTestModuleStartTime="00:04.365"
+						timeWallClock="20:23:25"
+						time="00:04.835"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'RxMainFrame.RxTabUIElements.PnlColourPanel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							itempath="container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.PnlColourPanel"
+							id="35c5f164846b47a3beef839709484bcd"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="103"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.443"
+						timeRelativeToTestModuleStartTime="00:04.973"
+						timeWallClock="20:23:26"
+						time="00:05.443"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'PnlColourPanel' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							itempath="container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.PnlColourPanel"
+							id="35c5f164846b47a3beef839709484bcd"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="104"
+							loglvl="Success"
+							itemindex="2">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.586"
+						timeRelativeToTestModuleStartTime="00:05.116"
+						timeWallClock="20:23:26"
+						time="00:05.586"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.RdbRedLight' at 6;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/radiobutton[@controlname='rdbRedLight']"
+							itempath="container[@controlname='grpBox']/?/?/radiobutton[@controlname='rdbRedLight']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.RdbRedLight"
+							id="c94ab13e26a44137b94cf02ae7f253ea"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="107"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.483"
+						timeRelativeToTestModuleStartTime="00:06.014"
+						timeWallClock="20:23:27"
+						time="00:06.483"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'RxMainFrame.RxTabUIElements.PnlColourPanel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							itempath="container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.PnlColourPanel"
+							id="35c5f164846b47a3beef839709484bcd"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="111"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.024"
+						timeRelativeToTestModuleStartTime="00:06.554"
+						timeWallClock="20:23:27"
+						time="00:07.024"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'PnlColourPanel' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							itempath="container[@controlname='grpBox']/?/?/container[@controlname='pnlColourPanel']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.PnlColourPanel"
+							id="35c5f164846b47a3beef839709484bcd"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="112"
+							loglvl="Success"
+							itemindex="4">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.170"
+						timeRelativeToTestModuleStartTime="00:06.700"
+						timeWallClock="20:23:28"
+						time="00:07.170"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.BtnButton1' at 44;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/button[@controlname='btnButton1']"
+							itempath="?/?/button[@controlname='btnButton1']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.BtnButton1"
+							id="2829c9b28cbe45888f31e5eb5d0dab9d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="115"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.415"
+						timeRelativeToTestModuleStartTime="00:07.945"
+						timeWallClock="20:23:29"
+						time="00:08.415"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							itempath="container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Down"
+							id="458c404922dc486db2b166babc3c188b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="119"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.331"
+						timeRelativeToTestModuleStartTime="00:08.861"
+						timeWallClock="20:23:30"
+						time="00:09.331"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							itempath="container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Down"
+							id="458c404922dc486db2b166babc3c188b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="123"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.465"
+						timeRelativeToTestModuleStartTime="00:09.995"
+						timeWallClock="20:23:31"
+						time="00:10.465"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 7;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							itempath="container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Down"
+							id="458c404922dc486db2b166babc3c188b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="127"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.563"
+						timeRelativeToTestModuleStartTime="00:11.093"
+						timeWallClock="20:23:32"
+						time="00:11.563"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.Down' at 11;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							itempath="container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Down"
+							id="458c404922dc486db2b166babc3c188b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="131"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.680"
+						timeRelativeToTestModuleStartTime="00:12.210"
+						timeWallClock="20:23:33"
+						time="00:12.680"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left DoubleClick item 'RxMainFrame.RxTabUIElements.Down' at 11;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							itempath="container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Down"
+							id="458c404922dc486db2b166babc3c188b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="135"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.844"
+						timeRelativeToTestModuleStartTime="00:13.374"
+						timeWallClock="20:23:34"
+						time="00:13.844"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="139"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.027"
+						timeRelativeToTestModuleStartTime="00:14.557"
+						timeWallClock="20:23:35"
+						time="00:15.027"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="143"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.032"
+						timeRelativeToTestModuleStartTime="00:15.562"
+						timeWallClock="20:23:36"
+						time="00:16.032"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 11;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="147"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.223"
+						timeRelativeToTestModuleStartTime="00:16.753"
+						timeWallClock="20:23:38"
+						time="00:17.223"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 9;23.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="151"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.423"
+						timeRelativeToTestModuleStartTime="00:17.954"
+						timeWallClock="20:23:39"
+						time="00:18.423"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="155"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.638"
+						timeRelativeToTestModuleStartTime="00:19.169"
+						timeWallClock="20:23:40"
+						time="00:19.638"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Up}{Up}{Up}{Up 2}{Up}{Up}{Up}{Up}{Up}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="159"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.703"
+						timeRelativeToTestModuleStartTime="00:20.234"
+						timeWallClock="20:23:41"
+						time="00:20.703"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;25.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="163"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.920"
+						timeRelativeToTestModuleStartTime="00:21.450"
+						timeWallClock="20:23:42"
+						time="00:21.920"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;48.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="167"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.152"
+						timeRelativeToTestModuleStartTime="00:22.682"
+						timeWallClock="20:23:44"
+						time="00:23.152"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="171"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.102"
+						timeRelativeToTestModuleStartTime="00:23.632"
+						timeWallClock="20:23:45"
+						time="00:24.102"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 12;45.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="175"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.401"
+						timeRelativeToTestModuleStartTime="00:24.932"
+						timeWallClock="20:23:46"
+						time="00:25.401"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 12;66.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="179"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.568"
+						timeRelativeToTestModuleStartTime="00:26.098"
+						timeWallClock="20:23:47"
+						time="00:26.568"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.WebTesting' at 23;4.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/tree[@controlname='treTestTreeView']//treeitem[@accessiblename='Web testing']"
+							itempath="tree[@controlname='treTestTreeView']//treeitem[@accessiblename='Web testing']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.WebTesting"
+							id="b974a4623baf4a50b63c931124b4647b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="183"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.348"
+						timeRelativeToTestModuleStartTime="00:26.879"
+						timeWallClock="20:23:48"
+						time="00:27.348"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.WebTesting'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/tree[@controlname='treTestTreeView']//treeitem[@accessiblename='Web testing']"
+							itempath="tree[@controlname='treTestTreeView']//treeitem[@accessiblename='Web testing']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.WebTesting"
+							id="b974a4623baf4a50b63c931124b4647b"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="187"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:27.816"
+						timeRelativeToTestModuleStartTime="00:27.347"
+						timeWallClock="20:23:48"
+						time="00:27.816"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 9;66.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="191"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.999"
+						timeRelativeToTestModuleStartTime="00:28.529"
+						timeWallClock="20:23:49"
+						time="00:28.999"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;86.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="195"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:30.431"
+						timeRelativeToTestModuleStartTime="00:29.961"
+						timeWallClock="20:23:51"
+						time="00:30.431"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down 7}{Down 2}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="199"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.634"
+						timeRelativeToTestModuleStartTime="00:31.164"
+						timeWallClock="20:23:52"
+						time="00:31.634"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Up 16}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="203"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:32.888"
+						timeRelativeToTestModuleStartTime="00:32.419"
+						timeWallClock="20:23:53"
+						time="00:32.888"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 11;63.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="207"
+							itemindex="28"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:34.060"
+						timeRelativeToTestModuleStartTime="00:33.591"
+						timeWallClock="20:23:54"
+						time="00:34.060"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 13;99.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="211"
+							itemindex="29"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.342"
+						timeRelativeToTestModuleStartTime="00:34.872"
+						timeWallClock="20:23:56"
+						time="00:35.342"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down 13}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="215"
+							itemindex="30"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:36.571"
+						timeRelativeToTestModuleStartTime="00:36.101"
+						timeWallClock="20:23:57"
+						time="00:36.571"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 14;46.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="219"
+							itemindex="31"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.806"
+						timeRelativeToTestModuleStartTime="00:37.337"
+						timeWallClock="20:23:58"
+						time="00:37.806"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 10;118.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="223"
+							itemindex="32"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:39.089"
+						timeRelativeToTestModuleStartTime="00:38.619"
+						timeWallClock="20:24:00"
+						time="00:39.089"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.RxTabUIElements.TreeView'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="227"
+							itemindex="33"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:40.105"
+						timeRelativeToTestModuleStartTime="00:39.636"
+						timeWallClock="20:24:01"
+						time="00:40.105"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.RxTabUIElements.TreeView' at 13;78.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/tree[@accessiblename='Tree view']"
+							itempath="?/?/tree[@accessiblename='Tree view']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.TreeView"
+							id="37c213ff6721418fb6b2915f6955f77d"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="231"
+							itemindex="34"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.338"
+						timeRelativeToTestModuleStartTime="00:40.869"
+						timeWallClock="20:24:02"
+						time="00:41.338"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow0' at 32;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 0']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 0']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow0"
+							id="e5bd3ca0a23746fe85432823b8b1edb6"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="235"
+							itemindex="35"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:42.336"
+						timeRelativeToTestModuleStartTime="00:41.866"
+						timeWallClock="20:24:03"
+						time="00:42.336"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.DataGridView1.FirstNameRow0'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 0']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 0']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow0"
+							id="e5bd3ca0a23746fe85432823b8b1edb6"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="239"
+							itemindex="36"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:43.117"
+						timeRelativeToTestModuleStartTime="00:42.647"
+						timeWallClock="20:24:04"
+						time="00:43.117"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.IORow7' at 11;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='IO Row 7']"
+							itempath="?/?/cell[@accessiblename='IO Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.IORow7"
+							id="01684087a2184b8e822f061d3ff321c1"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="243"
+							itemindex="37"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:44.133"
+						timeRelativeToTestModuleStartTime="00:43.663"
+						timeWallClock="20:24:05"
+						time="00:44.133"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.Row7' at 18;8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='Row 7']"
+							itempath="?/?/cell[@accessiblename='Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.Row7"
+							id="0a6dac60367144a5bb7a52916f6bde71"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="247"
+							itemindex="38"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:45.098"
+						timeRelativeToTestModuleStartTime="00:44.628"
+						timeWallClock="20:24:06"
+						time="00:45.098"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 47;1.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 7']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow7"
+							id="5989590692a04f05abffc6d46a60f41a"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="251"
+							itemindex="39"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.081"
+						timeRelativeToTestModuleStartTime="00:45.611"
+						timeWallClock="20:24:07"
+						time="00:46.081"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 49;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 7']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow7"
+							id="5989590692a04f05abffc6d46a60f41a"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="255"
+							itemindex="40"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:47.064"
+						timeRelativeToTestModuleStartTime="00:46.594"
+						timeWallClock="20:24:07"
+						time="00:47.064"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 49;2.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 7']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow7"
+							id="5989590692a04f05abffc6d46a60f41a"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="259"
+							itemindex="41"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:48.097"
+						timeRelativeToTestModuleStartTime="00:47.627"
+						timeWallClock="20:24:09"
+						time="00:48.097"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Back}{Back}{Back}{Back}{Back}{Back}Nicole' with focus on 'RxMainFrame.DataGridView1.FirstNameRow7'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 7']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow7"
+							id="5989590692a04f05abffc6d46a60f41a"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="263"
+							itemindex="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.048"
+						timeRelativeToTestModuleStartTime="00:48.578"
+						timeWallClock="20:24:09"
+						time="00:49.048"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{Return}' with focus on 'RxMainFrame.DataGridView1.FirstNameRow7'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/table[@controlname='dataGridView1']/?/?/cell[@accessiblename='FirstName Row 7']"
+							itempath="?/?/cell[@accessiblename='FirstName Row 7']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.DataGridView1.FirstNameRow7"
+							id="5989590692a04f05abffc6d46a60f41a"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="267"
+							itemindex="43"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:49.682"
+						timeRelativeToTestModuleStartTime="00:49.213"
+						timeWallClock="20:24:10"
+						time="00:49.682"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'RxMainFrame.RxTabUIElements.Position' at 218;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/scrollbar[@controlname='horizScrollBar']/indicator[@accessiblename='Position']"
+							itempath="?/?/scrollbar[@controlname='horizScrollBar']/indicator[@accessiblename='Position']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Position"
+							id="6009f359dc7943fa8b4e627b48095bc4"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="271"
+							itemindex="44"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:50.779"
+						timeRelativeToTestModuleStartTime="00:50.309"
+						timeWallClock="20:24:11"
+						time="00:50.779"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'RxMainFrame.RxTabUIElements.Position' at 236;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/?/?/scrollbar[@controlname='horizScrollBar']/indicator[@accessiblename='Position']"
+							itempath="?/?/scrollbar[@controlname='horizScrollBar']/indicator[@accessiblename='Position']"
+							fullname="TCOS_POC_DEMOAPPRepository.RxMainFrame.RxTabUIElements.Position"
+							id="6009f359dc7943fa8b4e627b48095bc4"
+							timeout="90000"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Fill_In_Form_And_Click_Add_Entry.cs"
+							codeline="276"
+							itemindex="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="265ms"
+				durationms="265"
+				type="teardown-container"
+				rid="bfd2413560ff42"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="264ms"
+					durationms="264"
+					type="test-module"
+					rid="cc08c41fc18d3ea"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="CloseAUT"
+					displayName="CloseAUT"
+					moduleid="d96aff6e-7eeb-4e96-9843-942dfb75264c"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="CloseAutProcessIDVar"
+							value="26432">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.916"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="20:24:12"
+						time="00:51.916"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$CloseAutProcessIDVar = '26432'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.947"
+						timeRelativeToTestModuleStartTime="00:00.031"
+						timeWallClock="20:24:12"
+						time="00:51.947"
+						level="Info"
+						category="Application">
+						<message>
+							Closing application with Process ID bound to variable $CloseAutProcessIDVar.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\somas\OneDrive\Documents\Ranorex\RanorexStudio Projects\TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\CloseAUT.cs"
+							codeline="95"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

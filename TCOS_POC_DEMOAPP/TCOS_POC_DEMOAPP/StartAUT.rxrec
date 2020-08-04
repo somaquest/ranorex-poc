@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <recordtable
 embeddedrepository="False"
-id="a016902c-5633-4893-885d-647761fa0eeb"
+id="63e021d7-56bf-452e-8ec0-71d78c6d7898"
 mode="Desktop">
 	<repeatcount>
 		1
@@ -24,7 +24,7 @@ mode="Desktop">
 	</codegen>
 	<variables>
 		<var
-		id="dbd71d3f-cfd1-42b3-b88e-9b88a55554bb"
+		id="81412f9f-b56a-4691-a738-06d59a13b1da"
 		name="StartAutProcessIDVar">
 		</var>
 	</variables>

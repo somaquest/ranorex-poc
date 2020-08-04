@@ -41,6 +41,7 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Navigate_to_UI_element_test_area_tab()
         {
+            UIElementHeader = "UI-element test area";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _UIElementHeader;
+
+        /// <summary>
+        /// Gets or sets the value of variable UIElementHeader.
+        /// </summary>
+        [TestVariable("14ac3a04-a2fc-4d91-beeb-289fed32ac50")]
+        public string UIElementHeader
+        {
+            get { return _UIElementHeader; }
+            set { _UIElementHeader = value; }
+        }
 
 #endregion
 
@@ -79,6 +92,18 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.UIElementTestArea' at 82;14.", repo.RxMainFrame.UIElementTestAreaInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.UIElementTestArea.Click("82;14");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.RxTabUIElements.TestareaHeader'.", repo.RxMainFrame.RxTabUIElements.TestareaHeaderInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.RxTabUIElements.TestareaHeaderInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$UIElementHeader) on item 'RxMainFrame.RxTabUIElements.TestareaHeader'.", repo.RxMainFrame.RxTabUIElements.TestareaHeaderInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabUIElements.TestareaHeaderInfo, "Text", UIElementHeader);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -41,6 +41,7 @@ namespace TCOS_POC_DEMOAPP
         /// </summary>
         public Navigate_to_Test_database_tab()
         {
+            TestDatabaseHeader = "Test database";
         }
 
         /// <summary>
@@ -52,6 +53,18 @@ namespace TCOS_POC_DEMOAPP
         }
 
 #region Variables
+
+        string _TestDatabaseHeader;
+
+        /// <summary>
+        /// Gets or sets the value of variable TestDatabaseHeader.
+        /// </summary>
+        [TestVariable("cf0cc489-888d-41e5-b439-004fba79900e")]
+        public string TestDatabaseHeader
+        {
+            get { return _TestDatabaseHeader; }
+            set { _TestDatabaseHeader = value; }
+        }
 
 #endregion
 
@@ -79,6 +92,18 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.TestDatabase' at 45;7.", repo.RxMainFrame.TestDatabaseInfo, new RecordItemIndex(0));
+            repo.RxMainFrame.TestDatabase.Click("45;7");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'RxMainFrame.RxTabStandard.TestdatabaseHeader'.", repo.RxMainFrame.RxTabStandard.TestdatabaseHeaderInfo, new RecordItemIndex(1));
+            Validate.Exists(repo.RxMainFrame.RxTabStandard.TestdatabaseHeaderInfo);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (Text=$TestDatabaseHeader) on item 'RxMainFrame.RxTabStandard.TestdatabaseHeader'.", repo.RxMainFrame.RxTabStandard.TestdatabaseHeaderInfo, new RecordItemIndex(2));
+            Validate.AttributeEqual(repo.RxMainFrame.RxTabStandard.TestdatabaseHeaderInfo, "Text", TestDatabaseHeader);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

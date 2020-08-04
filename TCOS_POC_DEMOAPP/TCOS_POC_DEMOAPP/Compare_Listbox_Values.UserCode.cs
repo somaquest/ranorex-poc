@@ -28,9 +28,42 @@ namespace TCOS_POC_DEMOAPP
         /// This method gets called right after the recording has been started.
         /// It can be used to execute recording specific initialization code.
         /// </summary>
+        /// 
+        
+        
         private void Init()
         {
             // Your recording specific initialization code goes here.
+        }
+
+        public void Get_value_LstTestBox(RepoItemInfo listInfo, string listItems)
+        {
+            
+
+            
+            TCOS_POC_DEMOAPPRepository repo = TCOS_POC_DEMOAPPRepository.Instance;
+
+			Ranorex.List HDComboBox = listInfo.FindAdapter<List>();
+            
+            HDComboBox.Click(Location.Center);
+
+            IList<Ranorex.ListItem> MyListItems = HDComboBox.FindDescendants<Ranorex.ListItem>();
+            
+			string[] actualStrArrItems;
+			
+			actualStrArrItems = new string[MyListItems.Count];
+
+            foreach (Ranorex.ListItem ThisListItem in MyListItems)
+            {
+                actualStrArrItems[ThisListItem.Index]=ThisListItem.Text.ToString();
+                
+            }
+            
+
+//		Report.Log(ReportLevel.Info,"**"+string.Join(",", actualStrArrItems)+"**");
+//		Report.Log(ReportLevel.Info,"**"+listItems+"**");
+			
+            Validate.AreEqual(string.Join(",", actualStrArrItems),listItems);
         }
 
     }

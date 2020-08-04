@@ -79,6 +79,52 @@ namespace TCOS_POC_DEMOAPP
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow0' at 32;10.", repo.RxMainFrame.DataGridView1.FirstNameRow0Info, new RecordItemIndex(0));
+            repo.RxMainFrame.DataGridView1.FirstNameRow0.Click("32;10");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}' with focus on 'RxMainFrame.DataGridView1.FirstNameRow0'.", repo.RxMainFrame.DataGridView1.FirstNameRow0Info, new RecordItemIndex(1));
+            repo.RxMainFrame.DataGridView1.FirstNameRow0.PressKeys("{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}{Down}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.IORow7' at 11;5.", repo.RxMainFrame.DataGridView1.IORow7Info, new RecordItemIndex(2));
+            repo.RxMainFrame.DataGridView1.IORow7.Click("11;5");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.Row7' at 18;8.", repo.RxMainFrame.DataGridView1.Row7Info, new RecordItemIndex(3));
+            repo.RxMainFrame.DataGridView1.Row7.Click("18;8");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 47;1.", repo.RxMainFrame.DataGridView1.FirstNameRow7Info, new RecordItemIndex(4));
+            repo.RxMainFrame.DataGridView1.FirstNameRow7.Click("47;1");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 49;2.", repo.RxMainFrame.DataGridView1.FirstNameRow7Info, new RecordItemIndex(5));
+            repo.RxMainFrame.DataGridView1.FirstNameRow7.Click("49;2");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.DataGridView1.FirstNameRow7' at 49;2.", repo.RxMainFrame.DataGridView1.FirstNameRow7Info, new RecordItemIndex(6));
+            repo.RxMainFrame.DataGridView1.FirstNameRow7.Click("49;2");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Back}{Back}{Back}{Back}{Back}{Back}Nicole' with focus on 'RxMainFrame.DataGridView1.FirstNameRow7'.", repo.RxMainFrame.DataGridView1.FirstNameRow7Info, new RecordItemIndex(7));
+            repo.RxMainFrame.DataGridView1.FirstNameRow7.PressKeys("{Back}{Back}{Back}{Back}{Back}{Back}Nicole");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'RxMainFrame.DataGridView1.FirstNameRow7'.", repo.RxMainFrame.DataGridView1.FirstNameRow7Info, new RecordItemIndex(8));
+            repo.RxMainFrame.DataGridView1.FirstNameRow7.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Down item 'RxMainFrame.RxTabUIElements.Position' at 218;11.", repo.RxMainFrame.RxTabUIElements.PositionInfo, new RecordItemIndex(9));
+            repo.RxMainFrame.RxTabUIElements.Position.MoveTo("218;11");
+            Mouse.ButtonDown(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Up item 'RxMainFrame.RxTabUIElements.Position' at 236;11.", repo.RxMainFrame.RxTabUIElements.PositionInfo, new RecordItemIndex(10));
+            repo.RxMainFrame.RxTabUIElements.Position.MoveTo("236;11");
+            Mouse.ButtonUp(System.Windows.Forms.MouseButtons.Left);
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

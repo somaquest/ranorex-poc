@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{9513FB1D-535C-4A63-B504-CC45027759B4}</string>
+      <string>Modules</string>
+      <string>{A50F1EB7-EC31-46C1-93CD-06DCD71EC2AA}</string>
+      <string>682f2d2f-ef81-41ee-ba5d-9370e7a08a9a</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TCOS_POC_DEMOAPP[Ranorex Automation Helpers[Modules[]UserCodeCollections[]]TCOS_POC_DEMOAPP[Code modules[]Compare_Listbox_Values.rxrec[]]]]&#xD;&#xA;Solution TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\Compare_Listbox_Values.rxrec&#xD;&#xA;Solution TCOS_POC_DEMOAPP\Ranorex Automation Helpers" />
+  <StartupProject value="{A50F1EB7-EC31-46C1-93CD-06DCD71EC2AA}" />
+</Properties>

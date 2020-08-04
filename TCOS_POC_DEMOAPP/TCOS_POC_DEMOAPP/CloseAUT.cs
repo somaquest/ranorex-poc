@@ -26,7 +26,7 @@ namespace TCOS_POC_DEMOAPP
     /// <summary>
     ///The CloseAUT recording.
     /// </summary>
-    [TestModule("fd5591b9-4a9b-4045-9035-749b4725cab1", ModuleType.Recording, 1)]
+    [TestModule("d96aff6e-7eeb-4e96-9843-942dfb75264c", ModuleType.Recording, 1)]
     public partial class CloseAUT : ITestModule
     {
         /// <summary>
@@ -59,7 +59,7 @@ namespace TCOS_POC_DEMOAPP
         /// <summary>
         /// Gets or sets the value of variable CloseAutProcessIDVar.
         /// </summary>
-        [TestVariable("a01ea109-3b7a-4991-ba93-a11bdcf8e862")]
+        [TestVariable("fb5d208b-dcae-457d-a187-a4a5a85741d4")]
         public string CloseAutProcessIDVar
         {
             get { return _CloseAutProcessIDVar; }

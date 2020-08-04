@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{A50F1EB7-EC31-46C1-93CD-06DCD71EC2AA}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>a016902c-5633-4893-885d-647761fa0eeb</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution TCOS_POC_DEMOAPP[TCOS_POC_DEMOAPP[]]]&#xD;&#xA;Solution TCOS_POC_DEMOAPP\TCOS_POC_DEMOAPP\DemoApp_UI_Smoke.rxtst&#xD;&#xA;Solution TCOS_POC_DEMOAPP" />
+  <StartupProject value="{A50F1EB7-EC31-46C1-93CD-06DCD71EC2AA}" />
+</Properties>

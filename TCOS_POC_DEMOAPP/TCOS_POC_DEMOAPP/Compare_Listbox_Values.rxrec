@@ -23,8 +23,354 @@ mode="Global">
 	namespace="TCOS_POC_DEMOAPP">
 	</codegen>
 	<variables>
+		<var
+		id="2835483b-64e6-415f-bfad-9ffd3d136453"
+		name="listvalue">
+		</var>
+		<var
+		id="58d63425-9043-4a8d-b450-fce2f211239b"
+		name="listItems">
+		</var>
+		<var
+		id="79f7b6fe-df4c-415f-8a0f-70376e836312"
+		name="subTreeItems">
+		</var>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="84c80478-2ca4-41c0-9819-790793758dae"
+		sx="766"
+		sy="361"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="458c4049-22dc-486d-b2b1-66babc3c188b"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="4"
+				prefcap="button"
+				rect="759,352,17,17"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Down
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="8cca9aa0-b01d-4a81-82cd-23d6914c3ce9">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAGYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwCtRWj/
+AGLc/wB+L8z/AIUf2Lc/34vzP+Fd/tIdzg9nPsZ1FaP9i3P9+L8z/hR/Ytz/AH4vzP8AhR7SHcPZ
+z7GdW1o3/Hm3/XQ/yFVv7Fuf78X5n/Cr9havaW5jkKklifl+grKrOLjZM1pQkpXaES+he48oE4PC
+v2Y9wP0qw3+si/3/AP2U00QRCNIwg2oQVHoRTm/1kX+//wCymuU6iakPVfr/AEpaQ9V+v9KAFooo
+oAKKKKACiiigAooooAKrvd23H+kQ/wDfYqxWBptpBPal5U3NvIzkjjAqW3eyNqcIuLlLoav2u2/5
++Iv++xTWurffF/pEXD8/OP7pqv8A2daf88v/AB4/41V1Ozggs1eKPaxkAzknjBpNySuXCFKclFN/
+gb1Ieq/X+lLSHqv1/pVnMLRRRQAUUUUAFFR7p/8AnnH/AN9n/CjdP/zzj/77P+FAElFR7p/+ecf/
+AH2f8KN0/wDzzj/77P8AhQBJWPo//Hif+uh/kK1N0/8Azzj/AO+z/hWLZS3NrAYzYzPli2cEdh7e
+1RJ2aOilFypyS8v1IBFNBKkU1w5sbeYANjkHCsoY/wB3nr/LjF7Wf+PBf+uo/kan0w+el35sJTfL
+ho3542KOazL8eXixt5FuI/Myiq+54yAcqR1I9D2xinLWIqPu1VfudHSHqv1/pS0h6r9f6VRgLRRR
+QAUUUUAFFJ83qPyo+b1H5UALRSfN6j8qPm9R+VAC0Unzeo/Kj5vUflQBQudNe4kmzcskch3hFXBD
+7QASc8gYzjjml0yO4SSZpoTCJArlflx5mMMRgng4HWr3zeo/Kj5vUflQAtIeq/X+lHzeo/KjByMk
+ce1AC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a8f10777-a31c-4869-b3da-a779db934d28"
+		sx="766"
+		sy="361"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="458c4049-22dc-486d-b2b1-66babc3c188b"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="4"
+				prefcap="button"
+				rect="759,352,17,17"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Down
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="554538d1-db23-48d7-a285-8141c54f1162">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAGYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigApr9qdTX7UAU0voXuPKBODwr9mPcD9KsN/rIv9/wD9lNNEEQjSMINqEFR6EU5v9ZF/v/8A
+spoAmpD1X6/0paQ9V+v9KAFooooAKKKKACiiigAooooAKrvd23H+kQ/99irFYGm2kE9qXlTc28jO
+SOMCpbd7I2pwi4uUuhq/a7b/AJ+Iv++xTWurffF/pEXD8/OP7pqv/Z1p/wA8v/Hj/jVXU7OCCzV4
+o9rGQDOSeMGk3JK5cIUpyUU3+BvUh6r9f6UtIeq/X+lWcwtFFFABRRRQAUVHun/55x/99n/CjdP/
+AM84/wDvs/4UASUVHun/AOecf/fZ/wAKN0//ADzj/wC+z/hQBJWPo/8Ax4n/AK6H+QrU3T/884/+
++z/hWLZS3NrAYzYzPli2cEdh7e1RJ2aOilFypyS8v1IBFNBKkU1w5sbeYANjkHCsoY/3eev8uMXt
+Z/48F/66j+RqfTD56XfmwlN8uGjfnjYo5rMvx5eLG3kW4j8zKKr7njIBypHUj0PbGKctYio+7VV+
+50dIeq/X+lLSHqv1/pVGAtFFFABRRRQAUUnzeo/Kj5vUflQAtFJ83qPyo+b1H5UALRSfN6j8qPm9
+R+VAFC5017iSbNyyRyHeEVcEPtABJzyBjOOOaXTI7hJJmmhMIkCuV+XHmYwxGCeDgdavfN6j8qPm
+9R+VAC0h6r9f6UfN6j8qMHIyRx7UALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+AH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="7;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="441e3042-dba9-4771-baf3-947d2d15baf6"
+		sx="766"
+		sy="361"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="458c4049-22dc-486d-b2b1-66babc3c188b"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="4"
+				prefcap="button"
+				rect="759,352,17,17"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Down
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="1d64f44d-8213-4d16-8bd6-15329ef7b899">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAGYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigApr9qdTX7UAU0voXuPKBODwr9mPcD9KsN/rIv9/wD9lNNEEQjSMINqEFR6EU5v9ZF/v/8A
+spoAmpD1X6/0paQ9V+v9KAFooooAKKKKACiiigAooooAKrvd23H+kQ/99irFYGm2kE9qXlTc28jO
+SOMCpbd7I2pwi4uUuhq/a7b/AJ+Iv++xTWurffF/pEXD8/OP7pqv/Z1p/wA8v/Hj/jVXU7OCCzV4
+o9rGQDOSeMGk3JK5cIUpyUU3+BvUh6r9f6UtIeq/X+lWcwtFFFABRRRQAUVHun/55x/99n/CjdP/
+AM84/wDvs/4UASUVHun/AOecf/fZ/wAKN0//ADzj/wC+z/hQBJWPo/8Ax4n/AK6H+QrU3T/884/+
++z/hWLZS3NrAYzYzPli2cEdh7e1RJ2aOilFypyS8v1IBFNBKkU1w5sbeYANjkHCsoY/3eev8uMXt
+Z/48F/66j+RqfTD56XfmwlN8uGjfnjYo5rMvx5eLG3kW4j8zKKr7njIBypHUj0PbGKctYio+7VV+
+50dIeq/X+lLSHqv1/pVGAtFFFABRRRQAUUnzeo/Kj5vUflQAtFJ83qPyo+b1H5UALRSfN6j8qPm9
+R+VAFC5017iSbNyyRyHeEVcEPtABJzyBjOOOaXTI7hJJmmhMIkCuV+XHmYwxGCeDgdavfN6j8qPm
+9R+VAC0h6r9f6UfN6j8qMHIyRx7UALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+AH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="11;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="17c220b8-9f3c-4509-a321-78fa7935f56d"
+		sx="770"
+		sy="366"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="458c4049-22dc-486d-b2b1-66babc3c188b"
+			sourcename="Recorder">
+				<element
+				capabilities=""
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="4"
+				prefcap="button"
+				rect="759,352,17,17"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Down
+					</attribute>
+				</element>
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']/?/?/button[@text='Down']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="f385a7b9-e95d-4a73-9733-2df3dd0aa644">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABFAGYDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigApr9qdTX7UAU0voXuPKBODwr9mPcD9KsN/rIv9/wD9lNNEEQjSMINqEFR6EU5v9ZF/v/8A
+spoAmpD1X6/0paQ9V+v9KAFooooAKKKKACiiigAooooAKrvd23H+kQ/99irFYGm2kE9qXlTc28jO
+SOMCpbd7I2pwi4uUuhq/a7b/AJ+Iv++xTWurffF/pEXD8/OP7pqv/Z1p/wA8v/Hj/jVXU7OCCzV4
+o9rGQDOSeMGk3JK5cIUpyUU3+BvUh6r9f6UtIeq/X+lWcwtFFFABRRRQAUVHun/55x/99n/CjdP/
+AM84/wDvs/4UASUVHun/AOecf/fZ/wAKN0//ADzj/wC+z/hQBJWPo/8Ax4n/AK6H+QrU3T/884/+
++z/hWLZS3NrAYzYzPli2cEdh7e1RJ2aOilFypyS8v1Eh0+7WZIHuCbOFg6f3mx0U+wx/ntY1n/jw
+X/rqP5GormZ7mNYJrGVI5JY1ZmJxjePYVHqYuIIo7SUNKjSDypu7cYCsP73v3/OiTvF2HSi4VY8x
+0FIeq/X+lLSHqv1/pVnMLRRRQAUUUUAFFJ83qPyo+b1H5UALRSfN6j8qPm9R+VAC0Unzeo/Kj5vU
+flQBX1D/AI91/wCu0X/oxap3mo29xbSosSzxb1Ry7bE2k43g9wGGMj0rSkiEqFJVR0PVWXINVrnT
+o7jGHMOIzEfLUDKHHHIPHHFAEtlHNFaolw++RcgtnPGeOcDJxjnFTHqv1/pR83qPyowcjJHHtQAt
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="Compare_Listbox_Values"
+		enabled="False"
+		isexternaltestmethod="False"
+		methodname="Get_value_LstTestBox"
+		namespace="TCOS_POC_DEMOAPP"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="8cd744a2-ae48-4d2e-a8a3-a9065bdc8e02">
+				<argument
+				argname="listInfo"
+				id="191eca6d-9605-4550-a7df-2fc74f977cdf">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e039e3e0-72e4-4625-8738-0ecc74a9dadf"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/container[@controlname='grpBox']/?/?/list[@controlname='lstTestBox']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="listItems"
+				id="d6013869-5e2c-45db-a99a-225002a72d79"
+				variable="listItems">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
 	</recorditems>
 	<repository
 	id="055c5840-e07d-43b0-ba49-91890698f03d"

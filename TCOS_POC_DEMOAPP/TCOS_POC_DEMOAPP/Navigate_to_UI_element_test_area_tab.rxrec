@@ -23,8 +23,87 @@ mode="Global">
 	namespace="TCOS_POC_DEMOAPP">
 	</codegen>
 	<variables>
+		<var
+		id="14ac3a04-a2fc-4d91-beeb-289fed32ac50"
+		name="UIElementHeader">
+			UI-element test area
+		</var>
 	</variables>
 	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="82;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="26a03a9f-b909-4858-acec-ac292afcc114"
+		sx="792"
+		sy="281"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dae9d3e3-fdeb-44c7-919c-6f9b3ea90897"
+			sourcename="Recorder">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@accessiblename='UI-element test area']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="77676513-ac6b-4fe4-b3b4-4430e4843ba0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="60f1bd8a-c42b-4ac5-bf48-3980f005efe3"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/text[@controlname='lblUiTestCenter']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9b9e646d-5205-4000-be9e-50fc0ccfc389">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="UIElementHeader">
+				</binding>
+			</bindings>
+			<info
+			id="60f1bd8a-c42b-4ac5-bf48-3980f005efe3"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@controlname='RxMainFrame']/?/?/tabpage[@controlname='RxTabUIElements']/text[@controlname='lblUiTestCenter']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				UI-element test area
+			</matchvalue>
+		</validationitem>
 	</recorditems>
 	<repository
 	id="055c5840-e07d-43b0-ba49-91890698f03d"
